@@ -1,0 +1,66 @@
+#Header{
+   padding: 20px 0;
+   
+   display: flex;
+   justify-content: center;
+
+}
+
+.Header-Container{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.Header-Left-Box{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+
+.Header-Logo{
+    color: rgba(0, 0, 0, 1);
+    font-family:'GimhaeGaya'; 
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: -0.4px;
+
+}
+
+.Header-Right-Box{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.Header-Search-Input-Box{
+    border:1px solid rgba(0, 0, 0,0.2);
+    border-radius: 43px;
+    padding: 0 10px 0 12px;
+
+    width: 223px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.Hedaer-Search-Input{
+    flex: 1;
+    border: none;
+    background: none;
+    outline: none;
+
+    color: rgba(0, 0, 0, 1);
+   
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 140%;
+   
+
+}

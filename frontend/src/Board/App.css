@@ -1,0 +1,280 @@
+.divider{
+    border-top: 1px solid rgba(0,0,0,0.2);
+    width: 100%;
+}
+
+.emphasis{
+    font-weight: bolder;
+}
+
+.word-badge{
+    padding: 6px 20px;
+    border: 1px solid rgba(0,0,0,0.5);
+    border-radius: 30px ;
+
+
+    color: rgba(0,0,0,0.5);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 140%;
+
+}
+.word-badge:hover{
+    background-color: rgba(0,0,0,0.03);
+    cursor: pointer;
+}
+
+.black-button{
+    border-radius: 46px;
+    width: 95px;
+    height: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(0,0,0,1);
+
+    color: rgba(255,255,255,1);
+
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 140%;
+
+    cursor: pointer;
+}
+.black-button:hover{
+    background-color: rgba(0,0,0,0.85);
+}
+.black-large-full-button{
+    border-radius: 46px;
+
+
+    width: 100%;
+    height: 48px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(0,0,0,1);
+    color: rgba(255,255,255,1);
+    font-size:14px ;
+    font-weight: 500;
+    line-height: 140%;
+
+    cursor: pointer;
+
+}
+.black-large-full-button:hover{
+
+    background-color: rgba(0,0,0,0.85);
+
+}
+
+
+
+
+.white-button{
+    border: 1px solid rgba(0,0,0,0.5) ;
+    border-radius: 46px;
+    width: 93px;
+    height: 28px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(255,255,255,1);
+
+    color: rgba(0,0,0,0.5);
+
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 140%;
+    cursor: pointer;
+}
+
+.white-button:hover{
+    background-color: rgba(0,0,0,0.05);
+}
+
+
+.disable-button{
+    border-radius: 46px;
+    width: 95px;
+    height: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(0,0,0,0.4);
+
+    color: rgba(255,255,255,1);
+
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 140%;
+
+    cursor: not-allowed;
+}
+
+
+.Icon-Box{
+
+    width: 24px;
+    height: 24px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.Icon-Box-Small{
+
+    width: 16px;
+    height: 16px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Icon-Box-large{
+
+    width: 40px;
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Icon-Button{
+
+    border-radius: 50% 50%;
+
+    width: 24px;
+    height: 24px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+
+}
+
+.Icon-Button:hover{
+    background-color: rgba(0,0,0,0.05);
+
+}
+
+.Icon{
+    width: 100%;
+    height: 100%;
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+
+}
+
+.eye-light-off-icon{
+    background-image: url(Assets/Image/eye-light-off.png);
+}
+
+.eye-light-on-icon{
+    background-image: url(./Assets/Image/eye-light-on.png);
+}
+
+.expand-right-light-icon{
+    background-image: url(./Assets/Image/expand-right-light.png);
+}
+.expand-right-icon{
+    background-image: url(./Assets/Image/expand-right.png)
+}
+
+.expand-left-icon{
+    background-image: url(./Assets/Image/expand-left.png);
+}
+
+
+
+
+
+.Logo-Light-Icon{
+
+    background-image: url(./Assets/Image/logo-light.png);
+
+}
+
+.Insta-Icon{
+    background-image: url(./Assets/Image/insta.png);
+
+}
+
+.Naver-Blog-Icon{
+    background-image: url(./Assets/Image/naver-blog.png);
+}
+
+.Logo-Dark-Icon{
+    background-image: url(./Assets/Image/logo-dark.png);
+}
+
+.serch-light-icon{
+    background-image: url(./Assets/Image/search-light.png);
+}
+
+.check-round-fill-icon{
+    background-image: url(./Assets/Image/check-round-fill.png);
+}
+
+.check-ring-light-icon{
+    background-image: url(./Assets/Image/check-ring-light.png);
+}
+
+
+.image-box-light-icon{
+    background-image: url(./Assets/Image/image-box-light.png);
+}
+
+.close-icon{
+    background-image: url(./Assets/Image/close.png);
+}
+
+.more-icon{
+    background-image: url(./Assets/Image/more.png);
+}
+
+.favorite-fill-icon{
+    background-image: url(./Assets/Image/favorite-fill.png);
+}
+
+.favorite-light-icon{
+    background-image: url(./Assets/Image/favorite-light.png);
+}
+
+.up-light-icon{
+    background-image: url(./Assets/Image/expand-up-light.png);
+}
+.down-light-icon{
+    background-image: url(./Assets/Image/expand-down-light.png);
+}
+
+.comment-icon{
+    background-image: url(./Assets/Image/chat-light.png);
+}
+
+.edit-icon{
+    background-image: url(./Assets/Image/edit-light.png);
+}
+
+.image-box-white-icon{
+    background-image: url(./Assets/Image/image-box-white-light.png);
+}
+
+.arrow-right-icon{
+    background-image: url(./Assets/Image/arrow-right.png);
+}

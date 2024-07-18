@@ -1,0 +1,118 @@
+.Top3-List-Item{
+
+    border-radius: 10px;
+    padding: 24px;
+    width: calc(384px - 24px - 24px);
+    height: calc(508px - 24px - 24px);
+
+    display: flex;
+    flex-direction: column-reverse;
+
+    background-color: rgba(0,0,0,0.5);
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+
+
+    cursor: pointer;
+}
+.Top3-List-Item:hover{
+    opacity: 0.9;
+}
+
+.To3-List-Item-Main-Box{
+    display: flex;
+    flex-direction: column ;
+    gap: 16px;
+
+}
+
+.Top3-List-Item-Top{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+}
+
+.Top3-List-Profile-Box{
+    width: 32px;
+    height: 32px;
+
+}
+
+.Top3-List-Item-Profile-Image{
+    border-radius: 50% 50%;
+    width: 100%;
+    height: 100%;
+
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+
+}
+
+.Top3-List-Item-Write-Box{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.Top3-List-Item-Nickname{
+    color: rgba(255,255,255,1);
+    font-size:  12px;
+    font-weight:500;
+    line-height: height 140%;
+}
+
+.Top3-List-Item-Write-Date{
+    color: rgba(255,255,255,0.7);
+    font-size:  12px;
+    font-weight:400;
+    line-height: height 140%;
+}
+
+.Top3-List-Item-Middle{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.Top3-List-Item-title{
+    width: 100%;
+    height: 22px;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+
+    color: rgba(255,255,255,1);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 140%;
+}
+
+.Top3-List-Item-content{
+    width: 100%;
+    height: 17px;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+
+    color: rgba(255,255,255,0.7);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 140%;
+
+}
+.Top3-List-Item-Bottom{
+  
+
+}
+.Top3-List-Item-Counts{
+    color: rgba(255,255,255,0.7);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 140%;
+
+}

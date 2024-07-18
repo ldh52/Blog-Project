@@ -1,0 +1,60 @@
+import React, { useEffect,useMemo,useState,useRef } from 'react';
+import {Title} from './style/mycss';
+import Mainpage from './page/mainpage';
+
+//다자인은 app밖에다 다시 그릴 필요 없기 때문에,정적이기 때문에, css파일 만들기 import /App.css;
+//스타일 컴포넌트
+//props 
+function App() {
+const[list,setList]=useState([1,2,3,4]);
+const[data,setData]=useState(0);
+const[search,setSearch]=useState(0);
+const[str,setStr]=useState('합계');
+const getADD=()=>{
+  let sum=0;
+  list.forEach(i=>sum=sum+i);
+  console.log("sum함수 실행됨",sum)
+  return sum;
+}
+//useMemo : 메모리 라이제이션(기억) hook라이브러리 
+const aaa=useMemo(()=>getADD(),[list]);
+
+
+//실행 시점: 1.App() 그림이 최초 그려질때 2.상태변수가 변경될때 3.의존리시트 관리할 수 있음 
+useEffect(()=>{
+console.log('useEffect 실행됨');
+
+},[search]); //[] 어디에도 의존하지 않고 최초에만 실행 
+//useRef (디자인) -dom을 변경할때 사용
+const myref=useRef(null);
+
+
+//***************************************************************
+  return (
+  <div>
+
+    <h1 ref={myref}>react test</h1>
+    <Title>공부중</Title>
+    <h1>데이터:{data} 검색:{search}</h1>
+    <div>
+      {list.map(i=><h1>{i}</h1>)}
+      <button onClick={()=>{setList([...list,10]);}}>리스트 값 추가</button>
+      <div >{str}:{aaa}</div> 
+    </div>
+    
+    <button onClick={()=>{myref.current.style.backgroundColor='red';}}>색 변경</button>
+    <button onClick={()=>{setStr('안녕')}}>문자변경</button>
+    <button onClick={()=>{setData(data+1)}}>더하기</button>
+    <button onClick={()=>{setSearch(search+1)}}>검색</button>
+    
+    <Mainpage />
+    
+
+  </div>
+  );
+
+}
+
+export default App;
+
+
